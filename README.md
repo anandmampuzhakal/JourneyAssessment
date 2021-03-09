@@ -12,7 +12,7 @@ Instructions: Using the endpoints available at https://jsonplaceholder.typicode.
 
 # Project designing
 
-MVVM pattern can adopt for each module also give the flexibility to the team can adopt any patterns according to the module behaviour.
+MVVM pattern can adopt for feature module posts and comments, also giving the provision to developers to opt for any type of patterns, like MVVM, MVP, Viper, MVC, etc.
 
 It shows how to split an app in logical vertical slices, how to handle in-feature and across feature navigation (using navigation components), how each module can be tested and how to organize dependencies and build.gradle files. 
 
@@ -35,7 +35,7 @@ Usually, a viwemodel can only aware the destroy of its owner in onClear() method
 Check these codes in MVVMViewModelFactory.kt
 
 ## Login Welcome (Add-on)
-![Welcome](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/welcome.png)
+![Welcome](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/welcomescreen.png)
 
 ## Listing the different post writers
 ![List of registered users writers](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/list_of_users.png)
