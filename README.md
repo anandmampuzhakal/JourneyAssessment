@@ -3,11 +3,11 @@
 Instructions: Using the endpoints available at https://jsonplaceholder.typicode.com/, display a list of posts along with the comments associated with each post. Feel free to use iOS or Android as well as any other libraries and frameworks of your choice. We don’t expect you to spend too long on this and aren’t expecting production ready code. What we are looking to understand is how you break down a problem, your thought process and how you structure your code amongst other things. If you would like to proceed, please complete the technical test and share the link with us by Monday, 15th March.
 
 
-User Story 1. As a user I would like to have a welcome screen. 
-User Story 2. As a user, I would like to have a provision to select different characters for the posts from this API (https://jsonplaceholder.typicode.com/users).
-User Story 3. As a user, I would like to see the individual posts with comments.
-      Task 3.1  individual posts must have a feature to get corresponding comments from the backend.
-       Task 3.2 Show the corresponding posts comments in horizontal view.
+- User Story 1. As a user I would like to have a welcome screen. 
+- User Story 2. As a user, I would like to have a provision to select different characters for the posts from this API (https://jsonplaceholder.typicode.com/users).
+- User Story 3. As a user, I would like to see the individual posts with comments.
+      - Task 3.1  individual posts must have a feature to get corresponding comments from the backend.
+      - Task 3.2 Show the corresponding posts comments in horizontal view.
 
 
 # Project designing
