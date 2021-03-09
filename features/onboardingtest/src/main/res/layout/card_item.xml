@@ -8,6 +8,7 @@
             type="modularization.features.onboardingtest.viewmodel.GetUsersViewModel" />
     </data>
 <androidx.cardview.widget.CardView
+    android:id="@+id/card_id_main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/white"
