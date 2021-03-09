@@ -43,8 +43,11 @@ Check these codes in MVVMViewModelFactory.kt
 ## Empty posts
 ![Empty posts](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/empty_post.png)
 
-## Empty posts
+##Posts
 ![Posts list](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/post_list.png)
+
+## Posts with comments
+![Posts list](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/show_comments.png)
 
 ## Unit test get users screen. 
 ![Welcome unit test](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/unittest.png)
