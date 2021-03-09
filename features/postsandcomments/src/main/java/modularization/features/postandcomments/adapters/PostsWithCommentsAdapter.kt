@@ -68,6 +68,7 @@ class PostsWithCommentsAdapter(
     }
 
     fun updateComments(comments: ArrayList<CommentsData>, position: Int) {
+        list[position].comments.clear()
         list[position].comments.addAll(comments)
         setCommentsList(list[position].comments, myViewHolders[position])
 
