@@ -18,7 +18,7 @@ android {
 }
 
 dependencies {
-    implementation project(':features:onboardingtest')
+    implementation project(':features:postsandcomments')
     implementation project(':libraries:ui-components')
     implementation project(':libraries:actions')
     testImplementation Deps.test_lib_junit

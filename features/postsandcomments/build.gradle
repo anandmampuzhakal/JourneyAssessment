@@ -35,7 +35,7 @@ dependencies {
     implementation project(':libraries:ui-components')
     implementation project(':libraries:actions')
     implementation project(':libraries:network')
-    implementation project(':features:onboardingtest:mvvmlibrary')
+    implementation project(':features:postsandcomments:mvvmlibrary')
     implementation Deps.jetbrains_anko
     implementation Deps.androidx_material
     implementation Deps.androidx_constraint_layout
