@@ -6,7 +6,7 @@
     <data>
         <variable
             name="usersViewModel"
-            type="modularization.features.onboardingtest.viewmodel.UserPostsWithCommentsViewModel" />
+            type="modularization.features.postandcomments.viewmodel.UserPostsWithCommentsViewModel" />
     </data>
 
     <androidx.cardview.widget.CardView

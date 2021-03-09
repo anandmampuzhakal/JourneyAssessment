@@ -5,7 +5,7 @@
     <data>
         <variable
             name="vm"
-            type="modularization.features.onboardingtest.viewmodel.GetUsersViewModel" />
+            type="modularization.features.postandcomments.viewmodel.GetUsersViewModel" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container"

@@ -1,14 +1,17 @@
-# CucumberTest
+# Westpac NZ Technical Assessment.
 
-The exercise is to develop a mobile application consisting of two or more screens that perform the following functions, also mainly focuses on how to architect/configure a multi-module application.
-Here I am following the TDD approach which helps me to complete requirement fast.  
+Instructions: Using the endpoints available at https://jsonplaceholder.typicode.com/, display a list of posts along with the comments associated with each post. Feel free to use iOS or Android as well as any other libraries and frameworks of your choice. We don’t expect you to spend too long on this and aren’t expecting production ready code. What we are looking to understand is how you break down a problem, your thought process and how you structure your code amongst other things. If you would like to proceed, please complete the technical test and share the link with us by Monday, 15th March.
 
 
-1.	Capture a person’s name and a number.
-2.	Convert this number into words with a currency of dollars and cents.
-3.	Render this name and number (as words) on a new screen. 
+User Story 1. As a user I would like to have a welcome screen. 
+User Story 2. As a user, I would like to have a provision to select different characters for the posts from this API (https://jsonplaceholder.typicode.com/users).
+User Story 3. As a user, I would like to see the individual posts with comments.
+      Task 3.1  individual posts must have a feature to get corresponding comments from the backend.
+       Task 3.2 Show the corresponding posts comments in horizontal view.
 
-//Todo
+
+# Project designing
+
 MVVM pattern can adopt for each module also give the flexibility to the team can adopt any patterns according to the module behaviour.
 
 It shows how to split an app in logical vertical slices, how to handle in-feature and across feature navigation (using navigation components), how each module can be tested and how to organize dependencies and build.gradle files. 
@@ -32,22 +35,27 @@ Usually, a viwemodel can only aware the destroy of its owner in onClear() method
 Check these codes in MVVMViewModelFactory.kt
 
 ## Login Welcome (Add-on)
-![Login Welcome](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/welcome.png)
+![Welcome](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/welcome.png)
 
-## Capture a person’s name and a number
-![Capture a person’s name and a number](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/register.png)
+## Listing the different post writers
+![List of registered users writers](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/list_of_users.png)
 
-## Unit test for capture a person’s detail. 
-![Welcome unit test](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/unittestwekcome.png)
+## Empty posts
+![Empty posts](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/empty_post.png)
+
+## Empty posts
+![Posts list](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/post_list.png)
+
+## Unit test get users screen. 
+![Welcome unit test](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/unittest.png)
 
 ## Flow test for capture a person’s detail. 
 How to run the flow test for capture a person’s detail module.
-![Welcome FlowTest test](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/howtorunflow.png)
+![FlowTest test](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/howtorun.png)
 
-## Dashboard(Add-on)
-![Dashboard Welcome](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/dashimg.png)
+## Navigation feature. 
+![Navigation config](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/navigation.png)
 
-## Sharing(Add-on) feature with out functionality.
-![Sharing](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/share.png)  
+## Project Scalability and features 
+This project design giving the provision to developers to opt for any type of patterns, like MVVM, MVP, Viper, MVC, etc.
 
-# WestpacAssessment

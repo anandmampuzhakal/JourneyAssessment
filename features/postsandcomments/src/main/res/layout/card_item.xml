@@ -5,7 +5,7 @@
     <data>
         <variable
             name="usersViewModel"
-            type="modularization.features.onboardingtest.viewmodel.GetUsersViewModel" />
+            type="modularization.features.postandcomments.viewmodel.GetUsersViewModel" />
     </data>
 <androidx.cardview.widget.CardView
     android:id="@+id/card_id_main"
