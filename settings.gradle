@@ -1,0 +1,8 @@
+include ':features:onboardingtest:mvvmlibrary'
+include ':libraries:network'
+include ':app'
+include ':features:onboardingtest'
+include ':features:dashboard'
+include ':features:sharing'
+include ':libraries:ui-components'
+include ':libraries:actions'

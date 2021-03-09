@@ -1,0 +1,61 @@
+
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+}
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    kapt {
+        useBuildCache = true
+    }
+
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+    dexOptions {
+        preDexLibraries = false
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+}
+dependencies {
+    implementation project(':libraries:ui-components')
+    implementation project(':libraries:actions')
+    implementation project(':libraries:network')
+    implementation project(':features:onboardingtest:mvvmlibrary')
+    implementation Deps.jetbrains_anko
+    implementation Deps.androidx_material
+    implementation Deps.androidx_constraint_layout
+    implementation Deps.androidx_navigation_fragment
+    implementation Deps.androidx_navigation_ui
+    implementation Deps.timber_gradle_versions
+    implementation Deps.lifecycle_gradle_versions
+    testImplementation Deps.test_lib_junit
+    androidTestImplementation Deps.test_androidx_runner
+    androidTestImplementation Deps.test_androidx_rules
+    androidTestImplementation Deps.test_androidx_espresso_core
+    testImplementation "androidx.arch.core:core-testing:2.1.0"
+    // mockito
+    testImplementation 'org.mockito:mockito-core:3.3.3'
+    androidTestImplementation 'org.mockito:mockito-core:3.3.3'
+    testImplementation 'org.mockito:mockito-inline:2.13.0'
+// PowerMock
+    testImplementation 'org.powermock:powermock-core:1.7.0RC2'
+    testImplementation 'org.powermock:powermock-module-junit4:1.7.0RC2'
+    testImplementation 'org.powermock:powermock-api-mockito2:1.7.0RC2'
+    implementation 'com.github.razir.progressbutton:progressbutton:2.1.0'
+
+
+}

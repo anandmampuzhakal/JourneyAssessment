@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/WestpacAssessment.iml" filepath="$PROJECT_DIR$/.idea/WestpacAssessment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WestpacAssessment.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WestpacAssessment.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WestpacAssessment.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/WestpacAssessment.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/WestpacAssessment.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/WestpacAssessment.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/dashboard/WestpacAssessment.features.dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/features/dashboard/WestpacAssessment.features.dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/onboardingtest/WestpacAssessment.features.onboardingtest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/onboardingtest/WestpacAssessment.features.onboardingtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/onboardingtest/mvvmlibrary/WestpacAssessment.features.onboardingtest.mvvmlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/features/onboardingtest/mvvmlibrary/WestpacAssessment.features.onboardingtest.mvvmlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/sharing/WestpacAssessment.features.sharing.iml" filepath="$PROJECT_DIR$/.idea/modules/features/sharing/WestpacAssessment.features.sharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/WestpacAssessment.libraries.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/WestpacAssessment.libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/actions/WestpacAssessment.libraries.actions.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/actions/WestpacAssessment.libraries.actions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/network/WestpacAssessment.libraries.network.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/network/WestpacAssessment.libraries.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ui-components/WestpacAssessment.libraries.ui-components.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ui-components/WestpacAssessment.libraries.ui-components.iml" />
+    </modules>
+  </component>
+</project>
