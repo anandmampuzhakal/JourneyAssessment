@@ -1,10 +1,8 @@
 package com.nz.anand.network.api
 
 
-import androidx.lifecycle.MutableLiveData
 import com.nz.anand.network.model.*
 import retrofit2.Call
-import retrofit2.http.Field
 import retrofit2.http.GET
 import retrofit2.http.Query
 

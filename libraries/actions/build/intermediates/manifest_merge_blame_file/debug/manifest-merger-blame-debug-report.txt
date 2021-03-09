@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="23"
-6-->/Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
+6-->/Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="28" />
-7-->/Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
+7-->/Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
 8
 9</manifest>

@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml:1:1-81
-INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml:1:1-81
-INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml:1:1-81
+ADDED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml:1:1-81
+INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml:1:1-81
+INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml:1:1-81
 	package
-		ADDED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml:1:11-78
-		INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
-		INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
+		ADDED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml:1:11-78
+		INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
+		INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml:1:1-81
+		ADDED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml:1:1-81
 uses-sdk
-INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
-INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
-INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
-INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
+INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
+INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
+INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
+INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
-		ADDED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
-		INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
+		INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
+		ADDED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
+		INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
-		ADDED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
-		INJECTED from /Users/anandmjoseph/AndroidStudioProjects/WestpacTechnicalAssessment/libraries/actions/src/main/AndroidManifest.xml
+		INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
+		ADDED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
+		INJECTED from /Users/anandmjoseph/WestpacAssessment/libraries/actions/src/main/AndroidManifest.xml
