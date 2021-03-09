@@ -14,5 +14,6 @@
     <string name="comments">Show Comments</string>
     <string name="please_scroll_horizontally">Please scroll horizontally</string>
     <string name="email">Email:</string>
+    <string name="no_data_found_please_select_another_user">No data found please select another user</string>
 
 </resources>

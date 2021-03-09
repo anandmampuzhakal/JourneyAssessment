@@ -25,14 +25,14 @@ class UserPostsWithCommentsFragment : MVVMBaseFragment(R.layout.fragment_user_po
         db = viewDataBindingOf()
         val userID =  arguments?.getInt("userId") as Int
 
-
         mViewModel.getPostData(userID).observe(viewLifecycleOwner){
             postsWithCommentsAdapter = PostsWithCommentsAdapter(it as ArrayList<PostWithComments>, object : OnItemClickListener{
                 override fun onItemClick(commentsId: Int, position: Int) {
-                println("Get the value ====>>"+ commentsId)
                     getComments(commentsId, position)
                 }
             })
+            if(userID != 0)
+                db.noDataFound.visibility = View.GONE
             db.postWithCommentsCardList.adapter = postsWithCommentsAdapter
         }
     }

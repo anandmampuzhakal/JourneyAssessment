@@ -14,7 +14,8 @@ public class FragmentUserPostsCommentsBindingImpl extends FragmentUserPostsComme
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.post_with_comments_card_list, 1);
+        sViewsWithIds.put(R.id.no_data_found, 1);
+        sViewsWithIds.put(R.id.post_with_comments_card_list, 2);
     }
     // views
     // variables
@@ -23,12 +24,13 @@ public class FragmentUserPostsCommentsBindingImpl extends FragmentUserPostsComme
     // Inverse Binding Event Handlers
 
     public FragmentUserPostsCommentsBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
     }
     private FragmentUserPostsCommentsBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (androidx.recyclerview.widget.RecyclerView) bindings[1]
+            , (android.widget.TextView) bindings[1]
+            , (androidx.recyclerview.widget.RecyclerView) bindings[2]
             );
         this.container.setTag(null);
         setRootTag(root);
