@@ -19,6 +19,7 @@ public class PostWithCommentsItemBindingImpl extends PostWithCommentsItemBinding
         sViewsWithIds.put(R.id.post_body_txt, 3);
         sViewsWithIds.put(R.id.comments_btn, 4);
         sViewsWithIds.put(R.id.comments_list, 5);
+        sViewsWithIds.put(R.id.circleIndicator, 6);
     }
     // views
     @NonNull
@@ -29,10 +30,11 @@ public class PostWithCommentsItemBindingImpl extends PostWithCommentsItemBinding
     // Inverse Binding Event Handlers
 
     public PostWithCommentsItemBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
     private PostWithCommentsItemBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (com.kingfisher.easyviewindicator.RecyclerViewIndicator) bindings[6]
             , (com.google.android.material.button.MaterialButton) bindings[4]
             , (androidx.recyclerview.widget.RecyclerView) bindings[5]
             , (android.widget.TextView) bindings[3]

@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.github.razir.progressbutton.attachTextChangeAnimator
 import com.github.razir.progressbutton.hideProgress
 import com.github.razir.progressbutton.showProgress
+import com.kingfisher.easyviewindicator.RecyclerViewIndicator
 import com.nz.anand.network.model.CommentsData
 import com.nz.anand.network.model.PostWithComments
 import modularization.features.onboardingtest.R
@@ -79,18 +80,22 @@ class PostsWithCommentsAdapter(
         if (comments.size > 0) {
             val verticalLayout =
                 LinearLayoutManager(
-                    holder.buttonRecyclerview.context,
+                    holder.commentsRecyclerview.context,
                     LinearLayoutManager.HORIZONTAL,
                     false
                 )
-            val linearLayoutManager = LinearLayoutManager(holder.buttonRecyclerview.context)
-            holder.buttonRecyclerview.layoutManager = linearLayoutManager
-            holder.buttonRecyclerview.layoutManager = verticalLayout
+            val linearLayoutManager = LinearLayoutManager(holder.commentsRecyclerview.context)
+            holder.commentsRecyclerview.layoutManager = linearLayoutManager
+            holder.commentsRecyclerview.layoutManager = verticalLayout
             holder.commentsAdapter = CommentsAdapter(comments)
-            holder.buttonRecyclerview.adapter = holder.commentsAdapter
-            holder.buttonRecyclerview.visibility = View.VISIBLE
+            holder.commentsRecyclerview.adapter = holder.commentsAdapter
+            holder.recyclerViewIndicator.setRecyclerView( holder.commentsRecyclerview);
+            holder.recyclerViewIndicator.forceUpdateItemCount();
+            holder.commentsRecyclerview.visibility = View.VISIBLE
+            holder.recyclerViewIndicator.visibility = View.VISIBLE
         } else {
-            holder.buttonRecyclerview.visibility = View.GONE
+            holder.commentsRecyclerview.visibility = View.GONE
+            holder.recyclerViewIndicator.visibility = View.GONE
         }
     }
 
@@ -99,7 +104,8 @@ class PostsWithCommentsAdapter(
         var titleTxt: TextView = view.findViewById(R.id.title_txt)
         var postBodyTxt: TextView = view.findViewById(R.id.post_body_txt)
         var commentsButton: Button = view.findViewById(R.id.comments_btn)
-        var buttonRecyclerview: RecyclerView = view.findViewById(R.id.comments_list)
-        lateinit var commentsAdapter: CommentsAdapter
+        var commentsRecyclerview: RecyclerView = view.findViewById(R.id.comments_list)
+        var recyclerViewIndicator: RecyclerViewIndicator = view.findViewById(R.id.circleIndicator)
+                lateinit var commentsAdapter: CommentsAdapter
     }
 }

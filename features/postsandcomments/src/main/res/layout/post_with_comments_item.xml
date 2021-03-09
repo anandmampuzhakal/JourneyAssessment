@@ -61,7 +61,21 @@
                 android:layout_below="@+id/comments_btn"
                 android:layout_alignParentBottom="true"/>
 
+            <com.kingfisher.easyviewindicator.RecyclerViewIndicator
+                android:id="@+id/circleIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                app:avi_animation_enable="true"
+                app:avi_drawable="@drawable/blue_radius"
+                app:avi_drawable_unselected="@drawable/gray_radius"
+                app:avi_orientation="horizontal"
+                app:avi_height="10dp"
+                app:avi_margin="10dp"
+                app:avi_width="10dp"
+                android:layout_below="@+id/comments_list"/>
             </RelativeLayout>
+
+
 
     </androidx.cardview.widget.CardView>
 </layout>

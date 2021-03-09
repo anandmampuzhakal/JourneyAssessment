@@ -60,5 +60,6 @@ dependencies {
     testImplementation 'android.arch.lifecycle:livedata:1.1.1'
     kaptTest "androidx.databinding:databinding-compiler:4.1.2"
     kaptAndroidTest 'androidx.databinding:databinding-compiler:4.1.2'
+    implementation 'com.kingfisherphuoc:easy-recyclerview-indicator:1.3'
 
 }
