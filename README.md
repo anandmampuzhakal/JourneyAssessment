@@ -49,7 +49,7 @@ Check these codes in MVVMViewModelFactory.kt
 ## Posts with comments
 ![Posts list](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/show_comments.png)
 
-## Unit test get users screen. 
+## Unit test for all users screen. 
 ![Welcome unit test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/unittest.png)
 
 ## Flow test for posts with comments. 
