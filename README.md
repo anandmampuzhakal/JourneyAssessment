@@ -35,29 +35,29 @@ Usually, a viwemodel can only aware the destroy of its owner in onClear() method
 Check these codes in MVVMViewModelFactory.kt
 
 ## Login Welcome (Add-on)
-![Welcome](https://github.com/anandmampuzhakal/WestpacAssessment/blob/main/readme/welcomescreen.png)
+![Welcome](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/welcomescreen.png)
 
 ## Listing the different post writers
-![List of registered users writers](https://github.com/anandmampuzhakal/WestpacAssessment/blob/main/readme/list_of_users.png)
+![List of registered users writers](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/list_of_users.png)
 
 ## Empty posts
-![Empty posts](https://github.com/anandmampuzhakal/WestpacAssessment/blob/main/readme/empty_post.png)
+![Empty posts](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/empty_post.png)
 
 ##Posts
-![Posts list](https://github.com/anandmampuzhakal/WestpacAssessment/blob/main/readme/post_list.png)
+![Posts list](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/post_list.png)
 
 ## Posts with comments
-![Posts list](https://github.com/anandmampuzhakal/WestpacAssessment/blob/main/readme/show_comments.png)
+![Posts list](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/show_comments.png)
 
 ## Unit test get users screen. 
-![Welcome unit test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/main/readme/unittest.png)
+![Welcome unit test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/unittest.png)
 
 ## Flow test for capture a person’s detail. 
 How to run the flow test for capture a person’s detail module.
-![FlowTest test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/main/readme/howtorun.png)
+![FlowTest test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/howtorun.png)
 
 ## Navigation feature. 
-![Navigation config](https://github.com/anandmampuzhakal/WestpacAssessment/blob/main/readme/navigation.png)
+![Navigation config](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/navigation.png)
 
 ## Project Scalability and features 
 This project design giving the provision to developers to opt for any type of patterns, like MVVM, MVP, Viper, MVC, etc.
