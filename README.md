@@ -52,7 +52,7 @@ Check these codes in MVVMViewModelFactory.kt
 ## Unit test get users screen. 
 ![Welcome unit test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/unittest.png)
 
-## Flow test for capture a person’s detail. 
+## Flow test for posts with comments. 
 How to run the flow test for capture a person’s detail module.
 ![FlowTest test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/howtorun.png)
 
