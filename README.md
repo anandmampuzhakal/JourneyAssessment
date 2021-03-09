@@ -6,8 +6,8 @@ Instructions: Using the endpoints available at https://jsonplaceholder.typicode.
 - User Story 1. As a user I would like to have a welcome screen. 
 - User Story 2. As a user, I would like to have a provision to select different characters for the posts from this API (https://jsonplaceholder.typicode.com/users).
 - User Story 3. As a user, I would like to see the individual posts with comments.
-      - Task 3.1  individual posts must have a feature to get corresponding comments from the backend.
-      - Task 3.2 Show the corresponding posts comments in horizontal view.
+-      Task 3.1  individual posts must have a feature to get corresponding comments from the backend.
+-      Task 3.2 Show the corresponding posts comments in horizontal view.
 
 
 # Project designing
