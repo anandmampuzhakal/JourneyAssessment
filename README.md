@@ -1,64 +1,41 @@
-# Westpac NZ Technical Assessment.
+# Mobile Developer Challenge
 
-Instructions: Using the endpoints available at https://jsonplaceholder.typicode.com/, display a list of posts along with the comments associated with each post. Feel free to use iOS or Android as well as any other libraries and frameworks of your choice. We don’t expect you to spend too long on this and aren’t expecting production ready code. What we are looking to understand is how you break down a problem, your thought process and how you structure your code amongst other things. If you would like to proceed, please complete the technical test and share the link with us by Monday, 15th March.
+The purpose of this challenge is to give us a better understanding of your coding skills. If you have any questions or need any clarifications for this challenge, please get in touch!
 
+## Goal:
 
-- User Story 1. As a user I would like to have a welcome screen. 
-- User Story 2. As a user, I would like to have a provision to select different characters for the posts from this API (https://jsonplaceholder.typicode.com/users).
-- User Story 3. As a user, I would like to see the individual posts with comments.
--      Task 3.1  individual posts must have a feature to get corresponding comments from the backend.
--      Task 3.2 Show the corresponding post`s comments in horizontal list view.
+#### Develop a Currency Conversion App that allows a user view exchange rates for any given currency
 
+- [X] Create a Project for a Mobile Phone
+- [X] Android: _Kotlin_ | iOS: _Swift_ (sorry, no Objective-C or Java please! You can learn Kotlin/Swift easily I'm sure:))
 
-# Project designing
+### Functional Requirements:
+- [X] Exchange rates must be fetched from: https://currencylayer.com/documentation  
+- [X] Use free API Access Key for using the API
+- [X] User must be able to select a currency from a list of currencies provided by the API(for currencies that are not available, convert them on the app side. When converting, floating-point error is accpetable)
+- [X] User must be able to enter desired amount for selected currency
+- [X] User should then see a list of exchange rates for the selected currency
+- [X] Rates should be persisted locally and refreshed no more frequently than every 30 minutes (to limit bandwidth usage)
+- [X] Write unit testing
 
-MVVM pattern can adopt for feature module posts and comments, also giving the provision to developers to opt for any type of patterns, like MVVM, MVP, Viper, MVC, etc.
+### UI Suggestion:
+- [X] Some way to select a currency
+- [X] Some text entry widget to enter the amount
+- [X] A list/grid of exchange rates
+- [X] It doesn’t need to be super pretty, but it shouldn’t be broken as well ;)
 
-It shows how to split an app in logical vertical slices, how to handle in-feature and across feature navigation (using navigation components), how each module can be tested and how to organize dependencies and build.gradle files. 
+### What we're looking for:
+- [X] An App that meets the Functional Requirements above
+- [X] Your coding style! Show us how you like to write your code
+- [X] Architecture, how you've structured your code
+- [X] Principles, how you belive code should be written
+- [X] Qualities, how you guarantee your code is functioning
 
-![Modularized architecture](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/modularized_architecture.png)
+### When you're done...
 
-Note that all code runs and executes, but the screens only contain data in xml preview. This means running the app provides a very "empty experience", but it also keeps the example simple and focused.
+Zip your completed Project and email the .zip file.
+If you want to instead make a github repo and just send us a link to it, that's fine too but please do __not__ fork this repo thanks!
 
-# Features 
-This Module is intent to provide a template with basic MVVM architecture framework with task 
-![MVVM pattern](https://github.com/anandmampuzhakal/CucumberTest/blob/main/readme/mvvmpattern.png)
+Have fun!
 
-Advantages:
-
-- Simple, easy to read
-- Use few libs, save time for gradle syncing
-- No dagger or any other DI lib
-
-## MVVM
-Usually, a viwemodel can only aware the destroy of its owner in onClear() method. But after making it implements LifecycleObserver and observing owner's lifecycle in ViewModelProvider.Factory. It can use onCreate() or other lifecycle event now.
-Check these codes in MVVMViewModelFactory.kt
-
-## Login Welcome (Add-on)
-![Welcome](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/welcomescreen.png)
-
-## Listing the different post writers
-![List of registered users writers](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/list_of_users.png)
-
-## Empty posts
-![Empty posts](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/empty_post.png)
-
-## Posts
-![Posts list](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/post_list.png)
-
-## Posts with comments
-![Posts list](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/show_comments.png)
-
-## Unit test for all users screen. 
-![Welcome unit test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/unittest.png)
-
-## Flow test for posts with comments. 
-How to run the flow test for capture a person’s detail module.
-![FlowTest test](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/howtorun.png)
-
-## Navigation feature. 
-![Navigation config](https://github.com/anandmampuzhakal/WestpacAssessment/blob/master/readme/navigation.png)
-
-## Project Scalability and features 
-This project design giving the provision to developers to opt for any type of patterns, like MVVM, MVP, Viper, MVC, etc.
-
+![UI Suggested Wireframe](ui_suggestion.png)
