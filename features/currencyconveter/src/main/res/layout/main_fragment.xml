@@ -7,15 +7,15 @@
 
         <variable
             name="adapter"
-            type="com.varun.currencylayer.ui.adapters.CurrencyListAdapter" />
+            type="modularization.features.currencyconveter.ui.adapters.CurrencyListAdapter" />
 
         <variable
             name="spinnerAdapter"
-            type="com.varun.currencylayer.ui.adapters.SpinnerAdapter" />
+            type="modularization.features.currencyconveter.ui.adapters.SpinnerAdapter" />
 
         <variable
             name="viewModel"
-            type="com.varun.currencylayer.ui.home.HomeViewModel" />
+            type="modularization.features.currencyconveter.ui.home.HomeViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

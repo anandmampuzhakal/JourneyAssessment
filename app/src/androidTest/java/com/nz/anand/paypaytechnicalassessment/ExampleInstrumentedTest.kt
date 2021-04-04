@@ -1,4 +1,4 @@
-package com.nz.anand.westpactechnicalassessment
+package com.nz.anand.paypaytechnicalassessment
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
@@ -13,12 +13,8 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-@RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
-        // Context of the app under test.
-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.nz.anand.westpactechnicalassessment", appContext.packageName)
     }
 }

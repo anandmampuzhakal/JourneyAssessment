@@ -7,7 +7,7 @@
 
         <variable
             name="currency"
-            type="com.varun.currencylayer.data.models.Currency" />
+            type="modularization.features.currencyconveter.data.models.Currency" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

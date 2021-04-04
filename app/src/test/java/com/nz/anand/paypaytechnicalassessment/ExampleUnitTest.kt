@@ -1,4 +1,4 @@
-package com.nz.anand.westpactechnicalassessment
+package com.nz.anand.paypaytechnicalassessment
 
 import org.junit.Test
 

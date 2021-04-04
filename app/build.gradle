@@ -5,7 +5,7 @@ plugins {
 
 android {
     defaultConfig {
-        applicationId "com.nz.anand.westpactechnicalassessment"
+        applicationId "com.nz.anand.paypayassessment"
         versionCode 1
         versionName "1.0"
     }
@@ -18,7 +18,7 @@ android {
 }
 
 dependencies {
-    implementation project(':features:postsandcomments')
+    implementation project(':features:currencyconveter')
     implementation project(':libraries:ui-components')
     implementation project(':libraries:actions')
     testImplementation Deps.test_lib_junit

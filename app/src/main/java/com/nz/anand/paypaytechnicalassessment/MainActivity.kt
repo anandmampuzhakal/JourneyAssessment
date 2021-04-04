@@ -1,8 +1,7 @@
-package com.nz.anand.westpactechnicalassessment
+package com.nz.anand.paypaytechnicalassessment
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.nz.anand.westpactechnicalassessment.R
 import modularization.libraries.actions.Actions
 /**
  * @author Anand M Joseph (anandmampuzhakal@hotmail.com)

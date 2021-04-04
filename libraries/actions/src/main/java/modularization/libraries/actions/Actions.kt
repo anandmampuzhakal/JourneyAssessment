@@ -5,7 +5,7 @@ import android.content.Intent
 
 object Actions {
 
-    fun openOnBoardIntent(context: Context): Intent = internalIntent(context, "com.nz.anand.modularization.onboarding.open")
+    fun openOnBoardIntent(context: Context): Intent = internalIntent(context, "com.nz.anand.modularization.currencyconveter.open")
     fun openDashBoardIntent(context: Context, userId: String): Intent =
         internalIntent(context, "com.nz.anand.modularization.dashboard.open")
             .putExtra(EXTRA_USER, UserArgs(userId))

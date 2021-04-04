@@ -14,9 +14,9 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/currencyconveter" />
+            <option value="$PROJECT_DIR$/features/currencyconveter/mvvmlibrary" />
             <option value="$PROJECT_DIR$/features/dashboard" />
-            <option value="$PROJECT_DIR$/features/postsandcomments" />
-            <option value="$PROJECT_DIR$/features/postsandcomments/mvvmlibrary" />
             <option value="$PROJECT_DIR$/features/sharing" />
             <option value="$PROJECT_DIR$/libraries" />
             <option value="$PROJECT_DIR$/libraries/actions" />

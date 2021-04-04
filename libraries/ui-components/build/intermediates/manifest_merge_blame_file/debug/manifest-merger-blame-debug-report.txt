@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="23"
-6-->/Users/anandmjoseph/WestpacAssessment/libraries/ui-components/src/main/AndroidManifest.xml
+6-->/Users/anandmjoseph/paypay/PayPayAssessment/libraries/ui-components/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="28" />
-7-->/Users/anandmjoseph/WestpacAssessment/libraries/ui-components/src/main/AndroidManifest.xml
+7-->/Users/anandmjoseph/paypay/PayPayAssessment/libraries/ui-components/src/main/AndroidManifest.xml
 8
 9</manifest>
