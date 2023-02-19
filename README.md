@@ -52,13 +52,6 @@ Check these codes in MVVMViewModelFactory.kt
 ## Unit test for all users screen. 
 ![Welcome unit test](https://github.com/anandmampuzhakal/JourneyAssessment/blob/master/readme/unittest.png)
 
-## Flow test for posts with comments. 
-How to run the flow test for capture a person’s detail module.
-![FlowTest test](https://github.com/anandmampuzhakal/JourneyAssessment/blob/master/readme/howtorun.png)
-
-## Navigation feature. 
-![Navigation config](https://github.com/anandmampuzhakal/JourneyAssessment/blob/master/readme/navigation.png)
-
 ## Project Scalability and features 
 This project design giving the provision to developers to opt for any type of patterns, like MVVM, MVP, Viper, MVC, etc.
 
