@@ -5,7 +5,7 @@ plugins {
 
 android {
     defaultConfig {
-        applicationId "com.nz.anand.westpactechnicalassessment"
+        applicationId "com.nz.anand.technicalassessment"
         versionCode 1
         versionName "1.0"
     }

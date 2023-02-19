@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="let_s_get_started">Let\'s get started</string>
-    <string name="cucumber_technical_test_mobile">Westpac Technical Test - Mobile</string>
+    <string name="cucumber_technical_test_mobile"> Technical Test - Mobile</string>
     <string name="by_anand_m_joseph">By Anand M Joseph</string>
     <string name="name">Name</string>
     <string name="inputs_error">Please check your inputs</string>

@@ -2,18 +2,38 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WestpacAssessment.iml" filepath="$PROJECT_DIR$/.idea/WestpacAssessment.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WestpacAssessment.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WestpacAssessment.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WestpacAssessment.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/WestpacAssessment.buildSrc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/WestpacAssessment.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/WestpacAssessment.features.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/dashboard/WestpacAssessment.features.dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/features/dashboard/WestpacAssessment.features.dashboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/onboardingtest/WestpacAssessment.features.postsandcomments.iml" filepath="$PROJECT_DIR$/.idea/modules/features/onboardingtest/WestpacAssessment.features.postsandcomments.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/WestpacAssessment.features.postsandcomments.mvvmlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/WestpacAssessment.features.postsandcomments.mvvmlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/sharing/WestpacAssessment.features.sharing.iml" filepath="$PROJECT_DIR$/.idea/modules/features/sharing/WestpacAssessment.features.sharing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/WestpacAssessment.libraries.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/WestpacAssessment.libraries.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/actions/WestpacAssessment.libraries.actions.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/actions/WestpacAssessment.libraries.actions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/network/WestpacAssessment.libraries.network.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/network/WestpacAssessment.libraries.network.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ui-components/WestpacAssessment.libraries.ui-components.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ui-components/WestpacAssessment.libraries.ui-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JourneyAssessment.iml" filepath="$PROJECT_DIR$/.idea/modules/JourneyAssessment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JourneyAssessment.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JourneyAssessment.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JourneyAssessment.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JourneyAssessment.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JourneyAssessment.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JourneyAssessment.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JourneyAssessment.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JourneyAssessment.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JourneyAssessment.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/JourneyAssessment.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JourneyAssessment.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JourneyAssessment.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JourneyAssessment.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JourneyAssessment.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/JourneyAssessment.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/JourneyAssessment.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/dashboard/JourneyAssessment.features.dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/features/dashboard/JourneyAssessment.features.dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/JourneyAssessment.features.postsandcomments.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/JourneyAssessment.features.postsandcomments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/JourneyAssessment.features.postsandcomments.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/JourneyAssessment.features.postsandcomments.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/JourneyAssessment.features.postsandcomments.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/JourneyAssessment.features.postsandcomments.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/JourneyAssessment.features.postsandcomments.mvvmlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/JourneyAssessment.features.postsandcomments.mvvmlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/JourneyAssessment.features.postsandcomments.mvvmlibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/JourneyAssessment.features.postsandcomments.mvvmlibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/JourneyAssessment.features.postsandcomments.mvvmlibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/JourneyAssessment.features.postsandcomments.mvvmlibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/JourneyAssessment.features.postsandcomments.mvvmlibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/mvvmlibrary/JourneyAssessment.features.postsandcomments.mvvmlibrary.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/postsandcomments/JourneyAssessment.features.postsandcomments.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/postsandcomments/JourneyAssessment.features.postsandcomments.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/sharing/JourneyAssessment.features.sharing.iml" filepath="$PROJECT_DIR$/.idea/modules/features/sharing/JourneyAssessment.features.sharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/JourneyAssessment.libraries.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/JourneyAssessment.libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/actions/JourneyAssessment.libraries.actions.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/actions/JourneyAssessment.libraries.actions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/actions/JourneyAssessment.libraries.actions.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/actions/JourneyAssessment.libraries.actions.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/actions/JourneyAssessment.libraries.actions.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/actions/JourneyAssessment.libraries.actions.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/actions/JourneyAssessment.libraries.actions.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/actions/JourneyAssessment.libraries.actions.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/network/JourneyAssessment.libraries.network.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/network/JourneyAssessment.libraries.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/network/JourneyAssessment.libraries.network.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/network/JourneyAssessment.libraries.network.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/network/JourneyAssessment.libraries.network.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/network/JourneyAssessment.libraries.network.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/network/JourneyAssessment.libraries.network.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/network/JourneyAssessment.libraries.network.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ui-components/JourneyAssessment.libraries.ui-components.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ui-components/JourneyAssessment.libraries.ui-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ui-components/JourneyAssessment.libraries.ui-components.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ui-components/JourneyAssessment.libraries.ui-components.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ui-components/JourneyAssessment.libraries.ui-components.main.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ui-components/JourneyAssessment.libraries.ui-components.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/ui-components/JourneyAssessment.libraries.ui-components.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/ui-components/JourneyAssessment.libraries.ui-components.unitTest.iml" />
     </modules>
   </component>
 </project>
