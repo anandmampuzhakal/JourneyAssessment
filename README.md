@@ -44,7 +44,7 @@ Check these codes in MVVMViewModelFactory.kt
 ![Empty posts](https://github.com/anandmampuzhakal/JourneyAssessment/blob/master/readme/empty_post.png)
 
 ## Posts
-![Posts list](https://github.com/anandmampuzhakal/JourneyAssessment/blob/master/readme/post_list.png)
+![Posts list](https://github.com/anandmampuzhakal/JourneyAssessment/blob/master/readme/post_list_page.png)
 
 ## Posts with comments
 ![Posts list](https://github.com/anandmampuzhakal/JourneyAssessment/blob/master/readme/show_comments.png)
